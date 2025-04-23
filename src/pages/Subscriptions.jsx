@@ -145,7 +145,7 @@ export default function Subscriptions() {
           </Button>
         </div>
       </div>
-      <div className="max-sm:max-w-[22rem] max-md:max-w-[36rem]  m-auto">
+      <div className="max-sm:max-w-[20rem] max-md:max-w-[36rem]  m-auto">
         <Card>
           <CardHeader className="space-y-4">
             <CardTitle className="text-xl md:text-2xl font-semibold">

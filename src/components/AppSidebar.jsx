@@ -51,14 +51,15 @@ export function AppSidebar() {
 
   return (
     <div className="md:flex ">
-      <aside
-        className={cn(
-          "w-64 h-screen bg-white border-r fixed z-50 transition-transform duration-300",
-          isOpen ? "translate-x-0" : "-translate-x-full",
-          "lg:translate-x-0 lg:relative lg:z-auto"
-        )}
-      >
-        <div className="p-4">
+<aside
+  className={cn(
+    "w-64 h-screen bg-white border-r fixed z-50 transition-transform duration-300 overflow-y-auto",
+    isOpen ? "translate-x-0" : "-translate-x-full",
+    "lg:translate-x-0 lg:relative lg:z-auto"
+  )}
+>
+  <div className="p-4 flex flex-col h-full">
+
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-2">
               <Dumbbell className="h-6 w-6 text-primary" />

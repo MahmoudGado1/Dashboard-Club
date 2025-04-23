@@ -38,7 +38,7 @@ export default function Leads() {
         <Button>Add New Lead</Button>
       </div>
 
-      <div className="max-sm:max-w-[22rem] max-md:max-w-[36rem] m-auto">
+      <div className="max-sm:max-w-[20rem] max-md:max-w-[36rem] m-auto">
         <Card>
           <CardHeader>
             <div className="flex items-center space-x-2">

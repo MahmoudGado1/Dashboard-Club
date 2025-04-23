@@ -105,6 +105,7 @@ export default function TicketsReport() {
           </Button>
         </div>
       </div>
+      <div className="max-sm:max-w-[20rem] max-md:max-w-[36rem] m-auto">
 
       <Card>
         <CardHeader>
@@ -172,6 +173,7 @@ export default function TicketsReport() {
           </div>
         </CardContent>
       </Card>
+      </div>
     </div>
   );
 }
